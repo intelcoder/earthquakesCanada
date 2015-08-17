@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/mainLayout"
+    android:minWidth="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/magnitude_text"
+        android:id="@+id/MagnitudeTView"
+        android:layout_above="@+id/FromTView"
+        android:layout_alignRight="@+id/locationTView"
+        android:layout_alignEnd="@+id/locationTView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/from_text"
+        android:id="@+id/FromTView"
+        android:layout_alignBottom="@+id/fromText"
+        android:layout_toLeftOf="@+id/mainProgressBar"
+        android:layout_toStartOf="@+id/mainProgressBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/to_text"
+        android:id="@+id/ToTView"
+        android:layout_above="@+id/locationTView"
+        android:layout_alignRight="@+id/locationTView"
+        android:layout_alignEnd="@+id/locationTView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/location_text"
+        android:id="@+id/locationTView"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/FromTView"
+        android:layout_alignEnd="@+id/FromTView" />
+    <!--Show this button after asyncTask finish -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_btn_txt"
+        android:id="@+id/Filter"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <EditText
+
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+
+        android:clickable="true"
+        android:id="@+id/magnitudeText"
+        android:layout_alignBottom="@+id/MagnitudeTView"
+        android:layout_toRightOf="@+id/Filter"
+        android:layout_toEndOf="@+id/Filter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_________"
+        android:id="@+id/fromText"
+        android:clickable="true"
+        android:layout_above="@+id/ToTView"
+        android:layout_alignRight="@+id/SPNer"
+        android:layout_alignEnd="@+id/SPNer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_________"
+        android:id="@+id/toText"
+        android:clickable="true"
+        android:layout_alignBottom="@+id/ToTView"
+        android:layout_alignLeft="@+id/fromText"
+        android:layout_alignStart="@+id/fromText" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainProgressBar"
+        android:layout_alignTop="@+id/Filter"
+        android:layout_centerHorizontal="true" />
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SPNer"
+        android:layout_alignTop="@+id/locationTView"
+        android:layout_alignRight="@+id/magnitudeText"
+        android:layout_alignEnd="@+id/magnitudeText"
+
+        android:layout_alignBottom="@+id/locationTView"
+        android:layout_toRightOf="@+id/mainProgressBar"
+        android:layout_toEndOf="@+id/mainProgressBar"
+        android:spinnerMode="dropdown"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Order"
+        android:id="@+id/textView"
+        android:layout_below="@+id/locationTView"
+        android:layout_alignRight="@+id/locationTView"
+        android:layout_alignEnd="@+id/locationTView" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/main_orderBy_spinner"
+        android:layout_below="@+id/locationTView"
+        android:layout_alignRight="@+id/SPNer"
+        android:layout_alignEnd="@+id/SPNer"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/SPNer"
+        android:layout_alignStart="@+id/SPNer"
+        android:spinnerMode="dropdown"
+       />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../IntentService/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/app/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/app/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/app/proguard-rules.pro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/app/src/androidTest/java/com/example/fiddlestick/intentservice/ApplicationTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/app/src/main/java/com/example/fiddlestick/intentservice/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/app/src/main/java/com/example/fiddlestick/intentservice/MyTestService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/gradle.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/local.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../IntentService/settings.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Lab10/app/src/main/java/com/example/fiddlestick/lab10/IntProvider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Lab10/app/src/main/java/com/example/fiddlestick/lab10/MainActivity.java" charset="UTF-8" />
+  </component>
+</project>

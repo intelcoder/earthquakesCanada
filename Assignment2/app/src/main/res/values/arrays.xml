@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="province">
+        <item>ALL</item>
+        <item>NU</item>
+        <item>AK</item>
+        <item>ON</item>
+        <item>NS</item>
+        <item>NT</item>
+        <item>YT</item>
+        <item>BC</item>
+        <item>WA</item>
+        <item>NB</item>
+        <item>AB</item>
+        <item>QC</item>
+        </string-array>
+    <string-array name="order_by">
+        <item>Time</item>
+        <item>Magnitude</item>
+        <item>Location</item>
+        </string-array>
+</resources>

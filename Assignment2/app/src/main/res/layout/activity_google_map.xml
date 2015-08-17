@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent">
+    <!--Percentage -->
+        <fragment
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:id="@+id/map"
+            tools:context="com.example.fiddlestick.assignment2.MapActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+
+
+
+</LinearLayout>
